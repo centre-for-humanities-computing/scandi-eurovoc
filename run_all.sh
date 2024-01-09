@@ -1,5 +1,5 @@
 pip install datasets huggingface_hub[clie]
-huggingface-hub login
+huggingface-cli login
 
 echo "Cloning repository."
 git clone "https://huggingface.co/datasets/EuropeanParliament/Eurovoc"
